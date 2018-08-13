@@ -32,6 +32,7 @@ public class Main extends JFrame implements KeyListener {
     public void iniciarComponentes(){
         panel = new panelPong();        
         this.add(panel);  
+        this.addKeyListener(this);
         System.out.println("Key: " + keyPress);
     }
     

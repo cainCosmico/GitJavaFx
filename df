@@ -1,0 +1,86 @@
+[33mcommit 697d1c66fbaf02b555b74d3836c6577417e8c2b9[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Camilo <camilo.valencia.96@hotmail.com>
+Date:   Thu Aug 9 20:58:23 2018 -0500
+
+    Se añadio redme.txt
+
+ REDME.txt | 4 [32m+[m[31m---[m
+ 1 file changed, 1 insertion(+), 3 deletions(-)
+
+[33mcommit b1ebc3334df6167ac1f6bee2b9f1f6f0d90b6351[m
+Author: Camilo <camilo.valencia.96@hotmail.com>
+Date:   Thu Aug 9 19:46:04 2018 -0500
+
+    Añadido REDME.txt
+
+ REDME.txt | 4 [32m+++[m[31m-[m
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+[33mcommit 91480102f789d6ea64fdd1f75397b4ddf7b0a80b[m
+Author: Camilo <camilo.valencia.96@hotmail.com>
+Date:   Thu Aug 9 19:45:34 2018 -0500
+
+    Version 1.0
+
+ REDME.txt | 1 [32m+[m
+ 1 file changed, 1 insertion(+)
+
+[33mcommit bb04fe2df6df5fe72830d50ff9d29680882a8ec9[m
+Author: Camilo <camilo.valencia.96@hotmail.com>
+Date:   Thu Aug 9 19:38:21 2018 -0500
+
+    Cambios en el proyecto
+
+ build.xml                                          |   53 [32m+[m
+ build/built-jar.properties                         |    4 [32m+[m
+ build/classes/gitjavafx/GitJavaFx$1.class          |  Bin [31m0[m -> [32m1058[m bytes
+ build/classes/gitjavafx/GitJavaFx.class            |  Bin [31m0[m -> [32m1326[m bytes
+ build/classes/hilos/HiloPelota.class               |  Bin [31m0[m -> [32m1150[m bytes
+ build/classes/hilos/LaminaPelota.class             |  Bin [31m0[m -> [32m1492[m bytes
+ build/classes/hilos/Pelota.class                   |  Bin [31m0[m -> [32m1165[m bytes
+ build/classes/hilos/VentanaHilos$1.class           |  Bin [31m0[m -> [32m703[m bytes
+ build/classes/hilos/VentanaHilos$2.class           |  Bin [31m0[m -> [32m703[m bytes
+ build/classes/hilos/VentanaHilos$3.class           |  Bin [31m0[m -> [32m697[m bytes
+ build/classes/hilos/VentanaHilos$4.class           |  Bin [31m0[m -> [32m697[m bytes
+ build/classes/hilos/VentanaHilos$5.class           |  Bin [31m0[m -> [32m719[m bytes
+ build/classes/hilos/VentanaHilos.class             |  Bin [31m0[m -> [32m2909[m bytes
+ build/classes/pong/Main.class                      |  Bin [31m0[m -> [32m1706[m bytes
+ build/classes/pong/panelPong.class                 |  Bin [31m0[m -> [32m870[m bytes
+ build/classes/referencias/LaminaPelota.class       |  Bin [31m0[m -> [32m1202[m bytes
+ build/classes/referencias/MarcoRebote$1.class      |  Bin [31m0[m -> [32m711[m bytes
+ build/classes/referencias/MarcoRebote$2.class      |  Bin [31m0[m -> [32m724[m bytes
+ build/classes/referencias/MarcoRebote.class        |  Bin [31m0[m -> [32m2290[m bytes
+ build/classes/referencias/Pelota.class             |  Bin [31m0[m -> [32m1239[m bytes
+ build/classes/referencias/Pruebas.class            |  Bin [31m0[m -> [32m784[m bytes
+ build/classes/referencias/UsoThreads.class         |  Bin [31m0[m -> [32m600[m bytes
+ dist/GitJavaFx.html                                |   45 [32m+[m
+ dist/GitJavaFx.jar                                 |  Bin [31m0[m -> [32m16747[m bytes
+ dist/GitJavaFx.jnlp                                |   18 [32m+[m
+ dist/web-files/dtjava.js                           | 3958 [32m+++++++++++++++++++[m
+ dist/web-files/error.png                           |  Bin [31m0[m -> [32m725[m bytes
+ dist/web-files/get_java.png                        |  Bin [31m0[m -> [32m9886[m bytes
+ dist/web-files/get_javafx.png                      |  Bin [31m0[m -> [32m11077[m bytes
+ dist/web-files/javafx-chrome.png                   |  Bin [31m0[m -> [32m11369[m bytes
+ dist/web-files/javafx-loading-100x100.gif          |  Bin [31m0[m -> [32m17878[m bytes
+ dist/web-files/javafx-loading-25x25.gif            |  Bin [31m0[m -> [32m2433[m bytes
+ dist/web-files/upgrade_java.png                    |  Bin [31m0[m -> [32m11000[m bytes
+ dist/web-files/upgrade_javafx.png                  |  Bin [31m0[m -> [32m13655[m bytes
+ manifest.mf                                        |    3 [32m+[m
+ nbproject/build-impl.xml                           | 1421 [32m+++++++[m
+ nbproject/configs/Run_as_WebStart.properties       |    2 [32m+[m
+ nbproject/configs/Run_in_Browser.properties        |    2 [32m+[m
+ nbproject/genfiles.properties                      |    8 [32m+[m
+ nbproject/jfx-impl.xml                             | 4049 [32m++++++++++++++++++++[m
+ .../private/configs/Run_as_WebStart.properties     |    2 [32m+[m
+ .../private/configs/Run_in_Browser.properties      |    2 [32m+[m
+ nbproject/private/private.properties               |    6 [32m+[m
+ nbproject/private/private.xml                      |   11 [32m+[m
+ nbproject/project.properties                       |  113 [32m+[m
+ nbproject/project.xml                              |   25 [32m+[m
+ src/gitjavafx/GitJavaFx.java                       |   51 [32m+[m
+ src/hilos/VentanaHilos.java                        |  205 [32m+[m
+ src/pong/Main.java                                 |   54 [32m+[m
+ src/pong/panelPong.java                            |   30 [32m+[m
+ src/referencias/Pruebas.java                       |   16 [32m+[m
+ src/referencias/UsoThreads.java                    |  202 [32m+[m
+ 52 files changed, 10280 insertions(+)
