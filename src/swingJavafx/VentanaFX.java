@@ -60,5 +60,7 @@ public class VentanaFX {
                 initAndShowGui();
             }
         });
+        
+        System.out.println("Estoy aquí");
     }
 }
